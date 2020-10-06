@@ -1,5 +1,4 @@
-## Welcome to GitHub Pages
-
+## DF-SSmVEP: Dual Frequency Aggregated Steady-State Motion Visual Evoked Potential Design With Bifold Canonical Correlation Analysis
 You can use the [editor on GitHub](https://github.com/raykakarimi/raykakarimi.github.io-DFSSMVEP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
