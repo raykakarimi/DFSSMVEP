@@ -7,5 +7,7 @@ layout: default
 
 ### About DF-SSmVEP
 
+![Branching](https://github.com/raykakarimi/DFSSMVEP/blob/gh-pages/Videos/Radial_Zoom.mp4)
+
 
 
