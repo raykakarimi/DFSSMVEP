@@ -62,25 +62,25 @@ for sub = 1:1:num_sub
                                 b(:,k)=bandp(aaa,0.5,50,0.2,60,Fs); %Chebyshev band pass filtering
                                 SSmVEPdata1(1,:,cros,j,k) = b(:,k);
                         end
-                        [wx10,wy10,r10]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc1(:,1:TW_p(tw_length)));
-                        [wx11,wy11,r11]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc11(:,1:TW_p(tw_length)));
-                        [wx12,wy12,r12]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc12(:,1:TW_p(tw_length)));
+                        [wx10,wy10,r10]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc1(:,1:TW_p(tw_length)));
+                        [wx11,wy11,r11]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc11(:,1:TW_p(tw_length)));
+                        [wx12,wy12,r12]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc12(:,1:TW_p(tw_length)));
 
-                        [wx20,wy20,r20]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc2(:,1:TW_p(tw_length)));
-                        [wx21,wy21,r21]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc21(:,1:TW_p(tw_length)));
-                        [wx22,wy22,r22]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc22(:,1:TW_p(tw_length)));
+                        [wx20,wy20,r20]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc2(:,1:TW_p(tw_length)));
+                        [wx21,wy21,r21]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc21(:,1:TW_p(tw_length)));
+                        [wx22,wy22,r22]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc22(:,1:TW_p(tw_length)));
 
-                        [wx30,wy30,r30]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc3(:,1:TW_p(tw_length)));
-                        [wx31,wy31,r31]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc31(:,1:TW_p(tw_length)));
-                        [wx32,wy32,r32]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc32(:,1:TW_p(tw_length)));
+                        [wx30,wy30,r30]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc3(:,1:TW_p(tw_length)));
+                        [wx31,wy31,r31]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc31(:,1:TW_p(tw_length)));
+                        [wx32,wy32,r32]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc32(:,1:TW_p(tw_length)));
 
-                        [wx40,wy40,r40]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc4(:,1:TW_p(tw_length)));
-                        [wx41,wy41,r41]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc41(:,1:TW_p(tw_length)));
-                        [wx42,wy42,r42]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc42(:,1:TW_p(tw_length)));
+                        [wx40,wy40,r40]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc4(:,1:TW_p(tw_length)));
+                        [wx41,wy41,r41]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc41(:,1:TW_p(tw_length)));
+                        [wx42,wy42,r42]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc42(:,1:TW_p(tw_length)));
 
-                        [wx50,wy50,r50]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc5(:,1:TW_p(tw_length)));
-                        [wx51,wy51,r51]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc51(:,1:TW_p(tw_length)));
-                        [wx52,wy52,r52]=cca(squeeze(SSVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc52(:,1:TW_p(tw_length)));
+                        [wx50,wy50,r50]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc5(:,1:TW_p(tw_length)));
+                        [wx51,wy51,r51]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc51(:,1:TW_p(tw_length)));
+                        [wx52,wy52,r52]=cca(squeeze(SSmVEPdata1(1,1:TW_p(tw_length),idx_testdata,j,:))',sc52(:,1:TW_p(tw_length)));
 
                         [v,idx]=max([max(mean([r10,r11,r12],2)),max(mean([r20,r21,r22],2)),max(mean([r30,r31,r32],2)),max(mean([r40,r41,r42],2)),max(mean([r50,r51,r52],2))]);
 
