@@ -1,6 +1,8 @@
 
-
-Raika Karimi,    Arash Mohammadi,    Amir Asif,    Habib Benali        
+---
+layout: default
+---
+# Raika Karimi,    Arash Mohammadi,    Amir Asif,    Habib Benali        
 
 
 ### About DF-SSmVEP
