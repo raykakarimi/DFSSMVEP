@@ -6,8 +6,8 @@ layout: default
 
 
 ### About DF-SSmVEP
+<iframe width="420" height="315" src="https://github.com/raykakarimi/DFSSMVEP/blob/gh-pages/Videos/Radial_Zoom.mp4" frameborder="0" allowfullscreen></iframe>
 
-![Branching](https://github.com/raykakarimi/DFSSMVEP/blob/gh-pages/Videos/Radial_Zoom.mp4)
 
 
 
