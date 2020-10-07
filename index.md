@@ -15,3 +15,4 @@ layout: default
 ###
 ![Installation steps](Videos/Radial_Zoom.gif)
 
+![Installation steps](Videos/Rotation.gif)
