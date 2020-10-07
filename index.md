@@ -14,3 +14,6 @@ layout: default
 
 ###
 
+<video width="480" height="320" controls="controls">
+  <source src="https://github.com/raykakarimi/DFSSMVEP/blob/gh-pages/Videos/Radial_Zoom.mp4" type="video/mp4">
+</video>
