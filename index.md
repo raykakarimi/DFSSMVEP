@@ -6,7 +6,7 @@ layout: default
 
  
 
-# About DF-SSmVEP
+## About DF-SSmVEP
 
 In this paper, we focus on the design of a novel SSmVEP paradigm without using resources such as trial time, phase, and/or number of targets to enhance the ITR. The proposed design is based on the intuitively pleasing idea of integrating more than one motion within a single SSmVEP target stimuli, simultaneously.
 
