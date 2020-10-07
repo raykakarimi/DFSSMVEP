@@ -16,6 +16,6 @@ layout: default
 
 ![Installation steps](Videos/Radial_Zoom.gif)
 
-#### Rotation
+### Rotation
 
 ![Installation steps](Videos/Rotation.gif)
