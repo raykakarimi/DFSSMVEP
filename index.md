@@ -14,5 +14,5 @@ To elicit SSmVEP, we designed a novel and innovative dual frequency aggregated m
 
 The paper also develops a specific unsupervised classification model, referred to as the Bifold  Canonical Correlation Analysis (BCCA), based on two motion frequencies per target. The corresponding covariance coefficients are utilized as extra features improving the classification accuracy. The proposed DF-SSmVEP is evaluated based on a real EEG dataset and the results corroborate its superiority.
 
-<iframe width="420" height="315" src="https://github.com/raykakarimi/DFSSMVEP/blob/gh-pages/Videos/Radial_Zoom.mp4" frameborder="0" allowfullscreen></iframe>
+
 
